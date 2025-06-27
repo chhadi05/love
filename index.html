@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Zunii 🖤 & Hadi's Crazy Love</title>
+  <title>Zunii 🖤 & Hadi - Our Cartoon Love</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,32 +11,38 @@
     <source src="bg-music.mp3" type="audio/mpeg">
   </audio>
 
+  <!-- Screen 1: Funny Intro -->
   <div class="screen active" id="screen1">
     <h1>Hey Zunii 🖤</h1>
-    <p>Quick question: Are you still my partner in crime?</p>
-    <button onclick="nextStep('yes')">Yes, duh 😎</button>
-    <button onclick="nextStep('potato')">No, I'm a potato 🥔</button>
+    <p>Can I ask you something funny (and slightly romantic)? 😇</p>
+    <button onclick="nextStep('yes')">Yes, you silly Hadi 😆</button>
+    <button onclick="nextStep('no')">Nope, still mad 😒</button>
   </div>
 
+  <!-- Screen 2: Fake Analyzer -->
   <div class="screen" id="screen2">
-    <h1>Calculating your awesomeness...</h1>
-    <img src="tom-and-jerry.gif" alt="Funny Tom and Jerry" class="gif">
-    <p class="loading">Please wait while Hadi upgrades his apology skills 💻🛠️</p>
+    <h1>Analyzing Zunii’s mood… 💡</h1>
+    <img src="tom-and-jerry.gif" alt="Tom & Jerry GIF" class="gif">
+    <p class="loading">Scanning forgiveness level 💖🍫🧁...</p>
   </div>
 
+  <!-- Screen 3: Apology -->
   <div class="screen" id="screen3">
-    <h1>I'm So Sorry, Zunii 🖤</h1>
+    <h1>I’m Sorry Zunii 🖤</h1>
     <p>
-      Even Tom & Jerry fight, but they can’t live without each other.  
-      You’re my favorite chaos, my best friend, and I miss your smile 😔💖<br><br>
-      Can we please hit the reset button and laugh again? 🙏😄
+      Even Tom & Jerry fight—but they always come back to each other.  
+      You’re my best friend, my partner, my cartoon chaos, and my peace.  
+      I miss your laugh, your anger, and your snack hoarding 🧁😂
     </p>
   </div>
 
+  <!-- Screen 4: Explosion of Love -->
   <div class="screen" id="screen4">
-    <h1>Let’s Make Up & Watch Cartoons 🎉</h1>
-    <p>Now hug time! Or I’ll send Jerry to chase me again 🐭😂</p>
+    <h1>Let’s Hug It Out 🤗</h1>
+    <p>Or Jerry will chase me forever 🐭💨</p>
+    <p><em>"Remember when we ate two cakes in one night? 😂🍰"</em></p>
     <div class="hearts" id="heartsContainer"></div>
+    <button onclick="alert('Now go hug Hadi 😘')">Let’s Watch Cartoons Again 🎬</button>
   </div>
 
   <script src="script.js"></script>
