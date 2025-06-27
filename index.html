@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zunii 🖤 & Hadi's Crazy Love</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bgMusic" autoplay loop>
+    <source src="bg-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="screen active" id="screen1">
+    <h1>Hey Zunii 🖤</h1>
+    <p>Quick question: Are you still my partner in crime?</p>
+    <button onclick="nextStep('yes')">Yes, duh 😎</button>
+    <button onclick="nextStep('potato')">No, I'm a potato 🥔</button>
+  </div>
+
+  <div class="screen" id="screen2">
+    <h1>Calculating your awesomeness...</h1>
+    <img src="tom-and-jerry.gif" alt="Funny Tom and Jerry" class="gif">
+    <p class="loading">Please wait while Hadi upgrades his apology skills 💻🛠️</p>
+  </div>
+
+  <div class="screen" id="screen3">
+    <h1>I'm So Sorry, Zunii 🖤</h1>
+    <p>
+      Even Tom & Jerry fight, but they can’t live without each other.  
+      You’re my favorite chaos, my best friend, and I miss your smile 😔💖<br><br>
+      Can we please hit the reset button and laugh again? 🙏😄
+    </p>
+  </div>
+
+  <div class="screen" id="screen4">
+    <h1>Let’s Make Up & Watch Cartoons 🎉</h1>
+    <p>Now hug time! Or I’ll send Jerry to chase me again 🐭😂</p>
+    <div class="hearts" id="heartsContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
