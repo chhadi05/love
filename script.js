@@ -26,3 +26,10 @@ function launchHearts() {
     setTimeout(() => container.removeChild(heart), 8000);
   }
 }
+
+window.addEventListener('click', () => {
+  const music = document.getElementById('bgMusic');
+  if (music && music.paused) {
+    music.play().catch(() => console.log('Autoplay blocked'));
+  }
+});
